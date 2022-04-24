@@ -1,0 +1,41 @@
+{
+  "name": "appfood",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "expo": "^41.0.1",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "^2.4.1",
+    "react-native-paper": "^4.12.0",
+    "react-native-reanimated": "^2.8.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.13.1",
+    "react-native-vector-icons": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.14.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.70.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
